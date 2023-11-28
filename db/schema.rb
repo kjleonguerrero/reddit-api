@@ -30,5 +30,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_28_184245) do
     t.integer "value"
     t.integer "user_id"
     t.integer "article_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 end
